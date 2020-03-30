@@ -1,4 +1,4 @@
 module.exports={
-    Workout:require("./workout"),
-    Day:require("./day")
+    Exercise:require("./exercise"),
+    Workout:require("./workout")
 }
