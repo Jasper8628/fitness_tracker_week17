@@ -1,3 +1,5 @@
+
+const newWorkout = document.querySelector("#new-workout");
 init();
 
 async function init() {
@@ -10,4 +12,12 @@ async function init() {
     }
   }
 }
+
+  newWorkout.addEventListener("click", function (event) {
+    const data={
+      day:Date.now()
+    }
+    API.createWorkout(data);
+  });
+
 
